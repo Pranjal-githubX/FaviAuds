@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css"
+        integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>AudoSurf | SERF your Personal Playlist's AUDiOs Uninterupted </title>
+
+</head>
+
+<body>
+    <div class="overlay">
+        <h2 class="sign">Pranjal &ThickSpace; Tomar</h2>
+    </div>
+    <main>
+
+        <div class="topbar"> <!-- 10% -->
+            <img class="arr-left" src="Assets/arrow-left.png" alt="">
+            <h3 class="cuname">Playing Sajde</h3>
+            <div class="hrt">
+                <img class="heart" src="Assets/heart.png" alt="">
+            </div>
+        </div>
+
+        <div class="album-details">
+            <img id="song-thumbnail" src="" alt="Song Thumbnail">
+            <div>
+                <h4 id="song-name">Sajde</h4>
+                <h5 id="song-artist">KK | Sunidhi</h5>
+            </div>
+        </div>
+
+
+        <div class="progress-bar">
+            <div class="large-bar">
+                <div class="dur-bar"></div>
+            </div>
+            <div class="durations">
+                <span>0:00</span>
+                <span class="hh"></span> <!--2.5-->
+            </div>
+        </div>
+
+
+        <div class="playback-btns">
+            <img src="Assets/shuffle.png">
+            <img src="Assets/skip-back.png">
+            <img src="Assets/Slice 8.png">
+            <img src="Assets/skip-forward.png">
+            <img src="Assets/repeat.png">
+        </div> <!--7-->
+
+        <!-- <div class="nav">
+      </div> -->
+    </main>
+    <section>
+
+    </section>
+    <script src='JS/script.js'> </script>
+    <script>
+        let signature = document.querySelector("h2.sign");
+        let txt = signature.innerText;
+        let len = txt.length;
+
+        let clutter = ``;
+        signature.innerText = ""; // Clear the original text
+
+        for (let i = 0; i < len; i++) {
+            clutter += `<span>${txt[i]}</span>`; // Add a single <span> for each character
+        }
+        signature.innerHTML = clutter; // Update innerHTML once after the loop
+
+        gsap.from("h2.sign span", {
+            opacity: 0,
+            y: 25,
+            stagger: 0.1,
+        })
+
+        setTimeout(() => {
+            gsap.to("main, section", { visibility: 'visible' })
+            document.querySelector(".overlay").style.display = "none"
+
+        }, 0)
+
+    </script>
+</body>
+
+</html>
