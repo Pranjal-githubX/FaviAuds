@@ -46,13 +46,13 @@ allSongs = playlist = [
         audioPath: 'Audio/PL.mp3'
     },
     {
-        name: 'Dil Ibadat',
+        name: 'Dil Ibadat✨',
         artist: 'KK | Pritam',
         thumbnail: './More/DI.jpg',
         audioPath: 'Audio/DI.mp3'
     }
     , {
-        name: 'I AM IN LOVE',
+        name: 'I AM IN LOVE⭐',
         artist: 'Pritam | KK | Dominique | Nilesh Mishra',
         thumbnail: './More/Mumbai.jpeg',
         audioPath: 'Audio/IAIL.mp3'
@@ -62,7 +62,7 @@ allSongs = playlist = [
         thumbnail: './More/laila majnu.jpg',
         audioPath: 'Audio/laila.mp3'
     }, {
-        name: 'Sajde Kiye Hain Lakho',
+        name: 'Sajde Kiye Hain Lakho✨',
         artist: 'Pritam | KK | Sunidhi Chauhan',
         thumbnail: './More/S.png',
         audioPath: 'Audio/S.mp3'
