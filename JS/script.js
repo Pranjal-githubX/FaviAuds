@@ -450,8 +450,7 @@ function handleMoreClick(event) {
     addMoreButtonListeners();
 }
 
-
-const captions = {
+let captions = {
     "DI.mp3": [
         { time: 13.6, text: "DIL Ibadat Kar Raha Hain" },
         { time: 16.6, text: "Dhadkane Meri Sunn" },
@@ -535,8 +534,79 @@ const captions = {
         { time: 303.2, text: "Lagi Hain Yahi Dhun" },
         { time: 308, text: "Lyrics by Sayeed Quadri" },
 
-    ],
+    ], "S.mp3": [
+        { time: 11.8, text: "ਅੱਖੀਆਂ 'ਚ ਵੱਸਦਾ ਜਿਹੜਾ ਓਹੀ ਮੇਰਾ ਮਾਹੀ ਐ" },
+        { time: 24.5, text: " " },
+        { time: 26.3, text: "ਚੰਨ ਦੀ, ਨਾ ਤਾਰਿਆਂ ਦੀ, ਰੱਬ ਦੀ ਗਵਾਹੀ ਐ" },
+        { time: 37, text: " " },
+        { time: 48.2, text: "Sajde kiye hain lakho" },
+        { time: 51.1, text: "Lakho Duyaein Mangi" },
+        { time: 53.8, text: "Paya hai maine phir tujhe" },
+        { time: 59.1, text: "Chahat ki teri maine" },
+        { time: 61.7, text: "Haq mein hawayein mangi" },
+        { time: 64.39, text: "Paya hai maine phir tujhe" },
+        { time: 68.39, text: " " },
+        { time: 69.8, text: "Tujhse hi dil yeh behla" },
+        { time: 72.6, text: "Tu jaise Kalma phela" },
+        { time: 75.2, text: "Chaahoon na phir kyun main tujhe" },
+        { time: 80.3, text: "Jis pal na chaha tujhko" },
+        { time: 83.2, text: "Us pal sazayein mangi" },
+        { time: 85.8, text: "Paya hai maine phir tujhe" },
+        { time: 89.6, text: "Ooohh" },
+        { time: 91.2, text: "Sajde kiye hai lakho" },
+        { time: 93.7, text: "Lakho duyaien mangi" },
+        { time: 96.4, text: "Paya hai maine phir tujhe" },
+        { time: 102, text: " " },
+        { time: 128.7, text: "Jaanein tuu sara woh" },
+        { time: 131, text: "Dil mein jo mere ho" },
+        { time: 133.8, text: "Padh le tu aankein har dafa" },
+        { time: 140.8, text: " " },
+        { time: 142.3, text: "Hoo" },
+        { time: 144.6, text: "Jaanein tu sara woh" },
+        { time: 147.0, text: "Dil mein jo mere ho" },
+        { time: 150.2, text: "Padh le tu ankhein har dafa" },
+        // { time: , text: "Haan" },
+        { time: 155.4, text: "Nakhre se na-jee bhi" },
+        { time: 158.1, text: "Hote hain razii bhi" },
+        { time: 160.7, text: "Tujhse hi hoti hai khafa" },
+        { time: 165.8, text: "Jane tu baatein sari" },
+        { time: 168.72, text: "Katt ti hain raatein sari" },
+        { time: 171.2, text: "Jalte diye see unbujhe" },
+        { time: 176.4, text: "Uth uth ke raaton ko bhi" },
+        { time: 179.25, text: "Teri wafayein mangi" },
+        { time: 181.7, text: "Paya hai maine phir tujhe" },
+        { time: 185.6, text: "Ooohh" },
+        { time: 187.03, text: "Sajde kiye hai lakho" },
+        { time: 189.9, text: "Lakho duyaien mangi" },
+        { time: 192.55, text: "Paya hai maine phir tujhe" },
+        { time: 197.5, text: "" },
+        { time: 219.4, text: "Chahat ke kajal se" },
+        { time: 222, text: "Kismat ke kagaz pe" },
+        { time: 224.7, text: "Apni wafayein likh zara" },
+        { time: 231, text: " " },
+        { time: 234, text: "Haannnnan" },
+        { time: 235.2, text: "Chahat ke kajal se" },
+        { time: 237.9, text: "Kismat ke kagaj pe" },
+        { time: 240.5, text: "Apni wafaein likh zara" },
+        { time: 246, text: "Bole zamana yun" },
+        { time: 248.5, text: "Mein tere jaisi hoon" },
+        { time: 251.2, text: "Tu bhi to mujhsa dikh zara" },
+        { time: 256.5, text: "Mera hi saya tu hai" },
+        { time: 259.1, text: "Mujh mein samaya tu hai" },
+        { time: 262, text: "Har pal yeh lagta hai mujhe" },
+        { time: 267, text: "Khud ko mitaya maine" },
+        { time: 269.9, text: "Teri balayein mangi" },
+        { time: 272.2, text: "Paya hai maine phir tujhe" },
+        { time: 276.3, text: "Oooooo" },
+        { time: 277.8, text: "Chahe: tu chahe mujhko" },
+        { time: 280.1, text: "Aise adayein mangi" },
+        { time: 283.02, text: "Paya hai maine phir tujhe" },
+        { time: 299.02, text: "Lyrics by Irshad Kamil" }
+    ]
+
 };
+
+
 
 const captionsDiv = document.querySelector(".captions")
 // Get audio element and captions div
