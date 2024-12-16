@@ -86,7 +86,11 @@ allSongs = playlist = [
         artist: 'Arijit S | Neeti M | Rashmi V',
         thumbnail: './More/MY.jpeg',
         audioPath: 'Audio/MY.mp3'
-    }
+    },
+    name: "Afreen Afreen",
+    artist: "Faakhir Mehmood | Rahat Fateh Ali Khan | Momina M",
+    thumbnail: "/More/Afreen.jpeg",
+    audioPath: "Audio\Afreen.mp3"
 ];
 
 
@@ -605,7 +609,45 @@ let captions = {
         { time: 280.1, text: "Aise adayein mangi" },
         { time: 283.02, text: "Paya hai maine phir tujhe" },
         { time: 299.02, text: "Lyrics by Irshad Kamil" }
-    ]
+    ],
+    "Afreen.mp3": [
+    { "time": 50, "text": "aisa dekha naheen khoob-soorat koyi\nWe have never seen one with such beauty as she" },
+    { "time": 55, "text": "jism jaise ajanta ki moorat koyi\nHers is the beauty of the sculptured idols of Ajanta" },
+    { "time": 60, "text": "jism jaise nigaahon pah jaadu koyi\nHer beauty has bewitched our gaze" },
+    { "time": 65, "text": "jism naghmah koyi\nHer beauty is an alluring song" },
+    { "time": 68, "text": "jism khush-bu koyi\nHer beauty is a heady fragrance" },
+    { "time": 70, "text": "jism jaise mahakti hui chaandani\nHers is the beauty of scented moonlight" },
+    { "time": 76, "text": "jism jaise machalti hui raagini\nHers is the beauty of a haunting melody" },
+    { "time": 81, "text": "jism jaise kih khilta hua ik chaman\nHers is the beauty of a blossoming garden" },
+    { "time": 86, "text": "jism jaise kih sooraj ki pahli kiran\nHers is the beauty of the first light of dawn" },
+    { "time": 91, "text": "jism tarsha huwa dil-kash o dil-nisheen\nHers is the most exquisitely hewn beauty" },
+    { "time": 96, "text": "sandaleen sandaleen\nWarm and smooth as sandalwood" },
+    { "time": 98, "text": "marmareen marmareen\nPure and delicate as marble" },
+    { "time": 104, "text": "husn-i jaanaan ki ta‘reef mumkin naheen\nIt is impossible to describe that beautiful beloved" },
+    { "time": 108, "text": "aafireen aafireen\nPraise to her Creator! Praise to her Creator!" },
+    { "time": 114, "text": "tu bhi dekhe agar to kahe ham-nisheen\nTo look at her is to become spellbound" },
+    { "time": 116, "text": "aafireen aafireen\nPraise to her Creator! Praise to her Creator!" },
+    { "time": 119, "text": "jaane kaise baandhe tu ne akhiyon ke ḍor\nI don’t know what enchantment your gaze wrought" },
+    { "time": 124, "text": "man mera khincha chala aaya teri or\nMy heart became drawn to you irresistibly" },
+    { "time": 129, "text": "mere chihre ke subh zulfon ki shaam\nThe bright dawn of my face, the dusky twilight of my tresses" },
+    { "time": 134, "text": "mera sab kuchh hai piya ab se tere naam\nAll that was mine is now devoted to you" },
+    { "time": 161, "text": "nazron ne teri chhuwa\nYour eyes met mine" },
+    { "time": 166, "text": "to hai yih jaadu hua\nAnd ever since then a spell has been woven" },
+    { "time": 171, "text": "hone lagi hoon main haseen\nI feel that I have become beautiful" },
+    { "time": 176, "text": "aafreen aafreen\nPraise to her Creator! Praise to her Creator!" },
+    { "time": 181, "text": "chahrah ik phool ki tarh shaadaab hai\nHer face is fresh as a flower" },
+    { "time": 184, "text": "chahrah us ka hai ya koyi mahtaab hai\nIs it her face in its brilliance or is it the moon itself?" },
+    { "time": 186, "text": "chahrah jaise ghazal chahrah jaan-i ghazal\nHer face is sheer poetry" },
+    { "time": 193, "text": "chahrah jaise kali chahrah jaise kanwal\nHer face has the beauty of the lotus flower" },
+    { "time": 196, "text": "chahrah jaise tasawwur bhi tasweer bhi\nHer face is an artist’s thought and also its translation" },
+    { "time": 198, "text": "chahrah ik khaab bhi chahrah taa‘beer bhi\nHer face is both dream and realisation" },
+    { "time": 201, "text": "chahrah koyi alf lailawi daastaan\nHer face is some magical tale" },
+    { "time": 203, "text": "chahrah ik pal yaqeen chahrah ik pal gumaan\nHer face is both certainty and supposition" },
+    { "time": 206, "text": "chahrah jaisa kih chahrah kaheen bhi naheen\nHer face is like no other seen anywhere" },
+    { "time": 208, "text": "maah-ru maah-ru mah-jabeen mah-jabeen\nSplendidly luminous, dazzlingly radiant" },
+    { "time": 212, "text": "husn-i jaanaan ki ta‘reef mumkin naheen\nIt is impossible to describe that beautiful beloved" },
+    { "time": 234, "text": "aafreen aafreen\nPraise to her Creator! Praise to her Creator!" }
+  ]
 
 };
 
