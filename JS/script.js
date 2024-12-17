@@ -87,10 +87,6 @@ allSongs = playlist = [
         thumbnail: './More/MY.jpeg',
         audioPath: 'Audio/MY.mp3'
     },
-    name: "Afreen Afreen",
-    artist: "Faakhir Mehmood | Rahat Fateh Ali Khan | Momina M",
-    thumbnail: "/More/Afreen.jpeg",
-    audioPath: "Audio\Afreen.mp3"
 ];
 
 
