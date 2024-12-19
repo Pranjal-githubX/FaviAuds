@@ -449,7 +449,6 @@ function handleMoreClick(event) {
     // Re-attach event listeners to the updated DOM
     addMoreButtonListeners();
 }
-
 let captions = {
     "DI.mp3": [
         { time: 13.4, text: "DIL Ibadat Kar Raha Hain" },
@@ -605,47 +604,106 @@ let captions = {
         { time: 280.1, text: "Aise adayein mangi" },
         { time: 283.02, text: "Paya hai maine phir tujhe" },
         { time: 299.02, text: "Lyrics by Irshad Kamil" }
-    ],
-    "Afreen.mp3": [
-    { "time": 50, "text": "aisa dekha naheen khoob-soorat koyi\nWe have never seen one with such beauty as she" },
-    { "time": 55, "text": "jism jaise ajanta ki moorat koyi\nHers is the beauty of the sculptured idols of Ajanta" },
-    { "time": 60, "text": "jism jaise nigaahon pah jaadu koyi\nHer beauty has bewitched our gaze" },
-    { "time": 65, "text": "jism naghmah koyi\nHer beauty is an alluring song" },
-    { "time": 68, "text": "jism khush-bu koyi\nHer beauty is a heady fragrance" },
-    { "time": 70, "text": "jism jaise mahakti hui chaandani\nHers is the beauty of scented moonlight" },
-    { "time": 76, "text": "jism jaise machalti hui raagini\nHers is the beauty of a haunting melody" },
-    { "time": 81, "text": "jism jaise kih khilta hua ik chaman\nHers is the beauty of a blossoming garden" },
-    { "time": 86, "text": "jism jaise kih sooraj ki pahli kiran\nHers is the beauty of the first light of dawn" },
-    { "time": 91, "text": "jism tarsha huwa dil-kash o dil-nisheen\nHers is the most exquisitely hewn beauty" },
-    { "time": 96, "text": "sandaleen sandaleen\nWarm and smooth as sandalwood" },
-    { "time": 98, "text": "marmareen marmareen\nPure and delicate as marble" },
-    { "time": 104, "text": "husn-i jaanaan ki ta‘reef mumkin naheen\nIt is impossible to describe that beautiful beloved" },
-    { "time": 108, "text": "aafireen aafireen\nPraise to her Creator! Praise to her Creator!" },
-    { "time": 114, "text": "tu bhi dekhe agar to kahe ham-nisheen\nTo look at her is to become spellbound" },
-    { "time": 116, "text": "aafireen aafireen\nPraise to her Creator! Praise to her Creator!" },
-    { "time": 119, "text": "jaane kaise baandhe tu ne akhiyon ke ḍor\nI don’t know what enchantment your gaze wrought" },
-    { "time": 124, "text": "man mera khincha chala aaya teri or\nMy heart became drawn to you irresistibly" },
-    { "time": 129, "text": "mere chihre ke subh zulfon ki shaam\nThe bright dawn of my face, the dusky twilight of my tresses" },
-    { "time": 134, "text": "mera sab kuchh hai piya ab se tere naam\nAll that was mine is now devoted to you" },
-    { "time": 161, "text": "nazron ne teri chhuwa\nYour eyes met mine" },
-    { "time": 166, "text": "to hai yih jaadu hua\nAnd ever since then a spell has been woven" },
-    { "time": 171, "text": "hone lagi hoon main haseen\nI feel that I have become beautiful" },
-    { "time": 176, "text": "aafreen aafreen\nPraise to her Creator! Praise to her Creator!" },
-    { "time": 181, "text": "chahrah ik phool ki tarh shaadaab hai\nHer face is fresh as a flower" },
-    { "time": 184, "text": "chahrah us ka hai ya koyi mahtaab hai\nIs it her face in its brilliance or is it the moon itself?" },
-    { "time": 186, "text": "chahrah jaise ghazal chahrah jaan-i ghazal\nHer face is sheer poetry" },
-    { "time": 193, "text": "chahrah jaise kali chahrah jaise kanwal\nHer face has the beauty of the lotus flower" },
-    { "time": 196, "text": "chahrah jaise tasawwur bhi tasweer bhi\nHer face is an artist’s thought and also its translation" },
-    { "time": 198, "text": "chahrah ik khaab bhi chahrah taa‘beer bhi\nHer face is both dream and realisation" },
-    { "time": 201, "text": "chahrah koyi alf lailawi daastaan\nHer face is some magical tale" },
-    { "time": 203, "text": "chahrah ik pal yaqeen chahrah ik pal gumaan\nHer face is both certainty and supposition" },
-    { "time": 206, "text": "chahrah jaisa kih chahrah kaheen bhi naheen\nHer face is like no other seen anywhere" },
-    { "time": 208, "text": "maah-ru maah-ru mah-jabeen mah-jabeen\nSplendidly luminous, dazzlingly radiant" },
-    { "time": 212, "text": "husn-i jaanaan ki ta‘reef mumkin naheen\nIt is impossible to describe that beautiful beloved" },
-    { "time": 234, "text": "aafreen aafreen\nPraise to her Creator! Praise to her Creator!" }
-  ]
+    ], "IAIL.mp3": [
 
-};
+        { time: 29.45, "text": "Ho Aaj Kal Tanha Main Kahan Hoon," },
+        { time: 33.5, "text": "Saath Chalta Koi" },
+        { time: 37.45, "text": "Uski Hame Aadat Hone Ki" },
+        { time: 40.9, "text": "Aadat Ho Gayi" },
+
+        { time: 45.04, "text": "Woh Jo Mila Hai Jab Se" },
+        { time: 47.4, "text": "Uski Sauhbat Ho Gayi" },
+
+        { time: 52.35, "text": "Ik Zara Masoom Se Dil Ki" },
+        { time: 55.7, "text": "Aafat Ho Gayi" },
+
+        { time: 59.35, "text": "Sun Le Zara" },
+        { time: 62.8, "text": "" },
+        { time: 63.1, "text": "Sun Le Zara" },
+
+        { time: 66.9, "text": "Dil Ne Kaha" },
+        { time: 70.6, "text": "Itna Bas Mujhe Bataa Hai...." },
+
+        { time: 74.17, "text": "I Am In Love!" },
+        { time: 77.85, "text": "" },
+        { time: 78.09, "text": "I Am In Love!" },
+
+        { time: 81.64, "text": "Tu Hi Bataa" },
+        { time: 85.2, "text": "Jaane Kya Mujhe Hua Hai" },
+        { time: 91, "text": "" },
+
+        { time: 103.09, "text": "Ose Boondhon Mein Tu Hai" },
+        { time: 105, "text": "Aankhein Moondu Mein Tu Hai" },
+        { time: 106.8, "text": "Dishaayon Das Tu Hai" },
+        { time: 108.7, "text": "Tu Hi Hai Bas Tu Hai" },
+
+        { time: 110.5, "text": "Dil Ka Shehar Tu Hai" },
+        { time: 112.4, "text": "Acchi Khabar Tu Hai" },
+        { time: 114.27, "text": "Fursat Ki Hassi Tu Hai" },
+        { time: 116.0, "text": "Jo Bhi Thi Kami Tu Hai" },
+
+        { time: 117.8, "text": "Ose Boondhon Mein Tu Hai" },
+        { time: 119.84, "text": "Aankhein Moondu Mein Tu Hai" },
+        { time: 121.65, "text": "Dishaayon Das Tu Hai" },
+        { time: 123.3, "text": "Tu Hi Hai Bas Tu Hai" },
+        { time: 125.3, "text": "Dil Ka Shehar Tu Hai" },
+        { time: 127.2, "text": "Acchi Khabar Tu Hai" },
+        { time: 128.7, "text": "Fursat Ki Hassi Tu Hai" },
+        { time: 130.8, "text": "Jo Bhi Thi Kami Tu Hain" },
+
+        { time: 133.3, "text": "Tu Hai Mera" },
+        { time: 136.8, "text": "" },
+        { time: 137.0, "text": "Tu Hai Mera" },
+        { time: 140.8, "text": "Kuch Main Jaanu Na" },
+        { time: 144.5, "text": "Itna Bas Mujhe Pataa Hai" },
+
+        { time: 148.2, "text": "I Am In Love!" },
+        { time: 151.5, "text": "" },
+        { time: 151.8, "text": "I Am In Love!" },
+        { time: 155.5, "text": "Tu Hi Bataa" },
+        { time: 159.21, "text": "Jaane Kya Mujhe Hua Hai" },
+        { time: 165.0, "text": "" },
+
+        { time: 191.7, "text": "Baadal Pe Chalta Hoon Main" },
+        { time: 193.58, "text": "Girta Sambhalta Hoon Main" },
+        { time: 195.3, "text": "Khwaishein Karta Hoon Main" },
+        { time: 197.3, "text": "Khone Se Darta Hoon Main" },
+
+        { time: 199.2, "text": "Jaaga Na Soya Hoon Main" },
+        { time: 201.08, "text": "Musafir Khoya Hoon Main" },
+        { time: 202.8, "text": "Kuch Sarfira Sa Hoon Main" },
+        { time: 204.7, "text": "Budhu Zara Sa Hoon Main" },
+
+        { time: 206.4, "text": "Baadal Pe Chalta Hoon Main" },
+        { time: 208.45, "text": "Girta Sambhalta Hoon Main" },
+
+        { time: 210.23, "text": "Khwaishein Karta Hoon Main" },
+        { time: 212.1, "text": "Khone Se Darta Hoon Main" },
+        { time: 213.7, "text": "Jaaga Na Soya Hoon Main" },
+        { time: 215.83, "text": "Musafir Khoya Hoon Main" },
+
+        { time: 217.65, "text": "Kuch Sarfira Sa Hoon Main" },
+        { time: 219.48, "text": "Budhu Zara Sa Hoon Main" },
+
+        { time: 222.05, "text": "Dil Kya Kare" },
+        { time: 225.5, "text": "" },
+        { time: 225.69, "text": "Dil Kya Kare" },
+
+        { time: 229.38, "text": "Tere Bina" },
+        { time: 232.8, "text": "Itna Bas Mujhe Bataa Hai...." },
+        { time: 236.75, "text": "I Am In Love!" },
+        { time: 240, "text": "" },
+        { time: 240.45, "text": "I Am In Love!" },
+
+        { time: 244.2, "text": "Tu Hi Bataa" },
+        { time: 247.83, "text": "Jaane Kya Mujhe Hua Hai" },
+        { time: 253.83, "text": "" },
+        { time: 275, "text": "Lyrics by NILESH MISHRA" },
+
+    ]
+
+
+}
 
 
 const captionsDiv = document.querySelector(".captions")
